@@ -1,11 +1,6 @@
-#  The following run  in constant time : O(1)
+# Constant Time: O(1)
+# The operation's time does not depend on the input size.
+# Example: Accessing an element in an array by index.
 
-a = 1
-b = 2   
-c = a + 5*b
-i = 0
-
-#  OR
- 
-while i<11:
-    i += 1
+def get_first_element(arr):
+    return arr[0]  # Always takes the same time regardless of array size.
