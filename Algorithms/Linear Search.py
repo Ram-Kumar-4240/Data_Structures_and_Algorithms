@@ -1,3 +1,6 @@
+# linear_search Time Complex O(n)
+# linear_search Space Complex O(1)
+
 def linear_search(arr, target):
     for i in range(len((arr))):
         if arr[i] == target:
